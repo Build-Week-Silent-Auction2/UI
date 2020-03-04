@@ -48,6 +48,7 @@ table {
   border-spacing: 0;
 }
 * {
+  max-width: 100%;
   box-sizing: border-box;
 }
 body{
@@ -71,9 +72,10 @@ nav{
 nav button{
   border-radius: 15px;
     background-color: #089cb4;
+    color:#f5b136;
     border: 2px solid black;
-    width: 13%;
-    padding: 1%;
+    width: 11%;
+    padding: 0.5%;
     font-size: 131%;
     font-family: 'Dancing Script', cursive;
 }
@@ -90,13 +92,71 @@ a{
     background-color: #45A29E;
     color: #00272f;
     border: 2px solid black;
-    width: 100%;
+    width: 50%;
     padding: 2%;
     font-size: 192%;
     align-items: center;
+    margin-left: 27%;
+}
+.hot-items{
+  display: flex;
+  justify-content: space-evenly;
+  max-width: 100%;
+  border: 2px solid orange;
+  margin-top: 3%;
+  margin-bottom: 3%;
 }
 
-.auction-photos img{
-  max-width: 100%;
-  width:35%;
+.auction-one{
+  width:29%;
+}
+.auction-two{
+width:30%
+}
+.auction-three{
+width: 20%;
+}
+.pitch{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 3%;
+}
+.pitch button{
+  border-radius: 15px;
+    background-color: #089cb4;
+    color:#f5b136;
+    border: 2px solid black;
+    width: 11%;
+    padding: 1%;
+    font-size: 131%;
+    font-family: 'Dancing Script', cursive;
+    margin-top: 1%;
+}
+.pitch-paragraph{
+  font-size: 150%;
+  font-family:'Trade Winds', cursive;
+  text-align: center;
+}
+/* beggining of about page */
+
+.about{
+  font-size: 135%;
+  font-family: 'Domine', serif;
+}
+.about h2{
+  font-family: 'Bree Serif', serif;
+}
+.silent{
+  font-size: 135%;
+  margin-top: 3%;
+  font-family: 'Domine', serif;
+}
+.silent h2{
+  font-family: 'Bree Serif', serif;
+}
+.about-footer{
+  font-size: 115%;
+  margin-top: 3%;
+  text-align: center;
 }
