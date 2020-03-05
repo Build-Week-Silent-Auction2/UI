@@ -1,3 +1,7 @@
+
+@Phone: ~'(max-width: 500px)';
+
+
 .buttonMix{
     .buttonColor(@darkblue, @signInColor);
     border-radius: 15px;
@@ -60,8 +64,7 @@
 .buttonTwoMix{
    .buttonColor(@darkblue, @signInColor);
     border-radius: 15px;
-    //   background-color: #089cb4;
-    //   color:#f5b136;
+    
       border: 2px solid black;
       width: 11%;
       padding: 1%;
@@ -72,4 +75,18 @@
 .buttonColor(@background, @text){
 background-color: @background;
 color: @text;
+}
+// end of footer mixins
+
+// beggining of phone mixins
+
+.phoneButtonMix{
+    border-radius: 15px;
+    background-color: #089cb4;
+    color: #f5b136;
+    border: 2px solid black;
+    width: 19%;
+    padding: 0.5%;
+    font-size: 122%;
+    font-family: 'Dancing Script', cursive;
 }

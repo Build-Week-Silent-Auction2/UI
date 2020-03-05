@@ -1,13 +1,31 @@
+@import 'mixins.less';
+@import 'variables';
+
+
 .heading{
+    @media @Phone{
+        .title();
+    }
     .title();
 }
 nav{
+    @media @Phone{
+        text-align: right;
+        margin-bottom: 2%; 
+    }
     text-align: right;
     margin-bottom: 2%;
 }
 nav button{
+    @media @Phone{
+        .phoneButtonMix();
+    }
   .buttonMix();
 }
 a{
+    @media @Phone{
+        color: white;
+        
+    }
     .links();
 }

@@ -37,19 +37,46 @@ body {
   margin-bottom: 2%;
   font-family: 'Dancing Script', cursive;
 }
+@media (max-width: 500px) {
+  .heading {
+    font-size: 460%;
+    text-align: center;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    font-family: 'Dancing Script', cursive;
+  }
+}
 nav {
   text-align: right;
   margin-bottom: 2%;
 }
+@media (max-width: 500px) {
+  nav {
+    text-align: right;
+    margin-bottom: 2%;
+  }
+}
 nav button {
-  border-radius: 15px;
-  background-color: #089cb4;
+  background-color: #00272f;
   color: #f5b136;
+  border-radius: 15px;
   border: 2px solid black;
   width: 11%;
   padding: 0.5%;
   font-size: 131%;
   font-family: 'Dancing Script', cursive;
+}
+@media (max-width: 500px) {
+  nav button {
+    border-radius: 15px;
+    background-color: #089cb4;
+    color: #f5b136;
+    border: 2px solid black;
+    width: 19%;
+    padding: 0.5%;
+    font-size: 122%;
+    font-family: 'Dancing Script', cursive;
+  }
 }
 a {
   text-decoration: none;
@@ -58,6 +85,11 @@ a {
   padding: 0% 2%;
   font-family: 'Nanum Pen Script', cursive;
 }
+@media (max-width: 500px) {
+  a {
+    color: white;
+  }
+}
 .pitch {
   display: flex;
   flex-direction: column;
@@ -65,9 +97,9 @@ a {
   margin-bottom: 3%;
 }
 .pitch button {
-  border-radius: 15px;
-  background-color: #089cb4;
+  background-color: #00272f;
   color: #f5b136;
+  border-radius: 15px;
   border: 2px solid black;
   width: 11%;
   padding: 1%;
@@ -81,9 +113,9 @@ a {
   text-align: center;
 }
 .buttonMix {
-  border-radius: 15px;
-  background-color: #089cb4;
+  background-color: #00272f;
   color: #f5b136;
+  border-radius: 15px;
   border: 2px solid black;
   width: 11%;
   padding: 0.5%;
@@ -131,15 +163,25 @@ a {
   margin-bottom: 3%;
 }
 .buttonTwoMix {
-  border-radius: 15px;
-  background-color: #089cb4;
+  background-color: #00272f;
   color: #f5b136;
+  border-radius: 15px;
   border: 2px solid black;
   width: 11%;
   padding: 1%;
   font-size: 131%;
   font-family: 'Dancing Script', cursive;
   margin-top: 1%;
+}
+.phoneButtonMix {
+  border-radius: 15px;
+  background-color: #089cb4;
+  color: #f5b136;
+  border: 2px solid black;
+  width: 19%;
+  padding: 0.5%;
+  font-size: 122%;
+  font-family: 'Dancing Script', cursive;
 }
 html,
 body,
