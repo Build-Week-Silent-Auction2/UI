@@ -14,13 +14,14 @@ body {
   align-items: center;
   margin-left: 27%;
   margin-top: 5%;
+  margin-bottom: 8%;
 }
 .hot-items {
   display: flex;
   justify-content: space-evenly;
   max-width: 100%;
   margin-top: 3%;
-  margin-bottom: 3%;
+  margin-bottom: 6%;
 }
 .hot-items img {
   border-radius: 15px;
@@ -49,9 +50,6 @@ body {
     margin-bottom: 2%;
     font-family: 'Dancing Script', cursive;
   }
-}
-nav {
-  margin-bottom: 2%;
 }
 @media (max-width: 500px) {
   nav {
@@ -87,6 +85,7 @@ a {
   font-size: 160%;
   padding: 0% 2%;
   font-family: 'Nanum Pen Script', cursive;
+  color: white;
 }
 @media (max-width: 500px) {
   a {
@@ -99,6 +98,7 @@ a {
   align-items: center;
   font-family: 'Nanum Pen Script', cursive;
   font-size: 160%;
+  margin-bottom: 3%;
 }
 .pitch {
   display: flex;
@@ -111,11 +111,24 @@ a {
   color: #f5b136;
   border-radius: 15px;
   border: 2px solid black;
-  width: 11%;
-  padding: 1%;
+  width: 80px;
+  padding: 3%;
   font-size: 131%;
   font-family: 'Dancing Script', cursive;
   margin-top: 1%;
+}
+@media (max-width: 500px) {
+  .pitch button {
+    background-color: #00272f;
+    color: #f5b136;
+    border-radius: 15px;
+    border: 2px solid black;
+    width: 80px;
+    padding: 3%;
+    font-size: 131%;
+    font-family: 'Dancing Script', cursive;
+    margin-top: 1%;
+  }
 }
 .pitch-paragraph {
   font-size: 150%;
@@ -170,13 +183,14 @@ a {
   align-items: center;
   margin-left: 27%;
   margin-top: 5%;
+  margin-bottom: 8%;
 }
 .hotMix {
   display: flex;
   justify-content: space-evenly;
   max-width: 100%;
   margin-top: 3%;
-  margin-bottom: 3%;
+  margin-bottom: 6%;
 }
 .PitchMix {
   display: flex;
@@ -184,13 +198,24 @@ a {
   align-items: center;
   margin-bottom: 3%;
 }
+.mediaButtonTwo {
+  background-color: #00272f;
+  color: #f5b136;
+  border-radius: 15px;
+  border: 2px solid black;
+  width: 80px;
+  padding: 3%;
+  font-size: 131%;
+  font-family: 'Dancing Script', cursive;
+  margin-top: 1%;
+}
 .buttonTwoMix {
   background-color: #00272f;
   color: #f5b136;
   border-radius: 15px;
   border: 2px solid black;
-  width: 11%;
-  padding: 1%;
+  width: 80px;
+  padding: 3%;
   font-size: 131%;
   font-family: 'Dancing Script', cursive;
   margin-top: 1%;
@@ -337,17 +362,26 @@ table {
   font-size: 135%;
   font-family: 'Domine', serif;
   margin-top: 4%;
+  text-align: center;
+  margin: 0 3%;
 }
 .about h2 {
   font-family: 'Bree Serif', serif;
+  font-size: 150%;
+  margin-bottom: 3%;
 }
 .silent {
   font-size: 135%;
   margin-top: 3%;
   font-family: 'Domine', serif;
+  text-align: center;
+  margin: 0 3%;
 }
 .silent h2 {
   font-family: 'Bree Serif', serif;
+  font-size: 150%;
+  margin-bottom: 3%;
+  margin-top: 3%;
 }
 .big-container {
   width: 95%;
